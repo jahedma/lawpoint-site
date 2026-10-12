@@ -1,0 +1,17 @@
+:root {
+  --serif: "EB Garamond", Garamond, "Times New Roman", serif;
+  --sans: Futura, "Futura PT", "Century Gothic", "Avenir Next", Arial, sans-serif;
+}
+
+.case-row {
+  grid-template-columns: 55px 1fr;
+}
+
+.person a {
+  min-width: 68px;
+  padding: 0 10px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
